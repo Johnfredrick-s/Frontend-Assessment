@@ -8,7 +8,6 @@ const Navbar = () => {
     { text: "Customers", link: "#customers" },
   ];
 
-  
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false); //Side menu
   const [showBtn, setShowBtn] = useState(false); //Show trail btn
 
@@ -62,20 +61,22 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // Attach the event listener
-    document.addEventListener("mousedown", handleClickOutside);
+    if (isMobileMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
 
-    // Cleanup the event listener
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isMobileMenuOpen]);
+  }, []);
 
   const toggleMenu = () => {
     setMobileMenuOpen(prev=> !prev);
   };
 
-  useMemo(() => {
+  useEffect(() => {
     if(typeof window !== "undefined"){
       document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto";
     }
@@ -177,6 +178,7 @@ const Navbar = () => {
                   <div
                     className="text-[18px] leading-[24px] border-b-[1px] border-solid border-[#dbd9d2] bg-white flex items-center max-w-full px-[30px] mt-0 ml-auto sticky top-0 z-[104] w-full xl:hidden py-[32px]"
                   ></div>
+                  
                   <ul
                     className="text-[16px] text-[#BFC0C1] leading-[13px] list-none flex justify-between m-0 px-0 flex-col w-full xl:flex-row xl:w-[unset] "
                     role="menubar"
@@ -292,6 +294,7 @@ const Navbar = () => {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
+                      console.log('cliked...',e)
                       toggleMenu();
                     }}
                     className={`${
