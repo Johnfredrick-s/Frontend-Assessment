@@ -1,0 +1,35 @@
+{
+  "title": "Powerful endpoint management, built for the devices you choose",
+  "data": [
+    {
+      "img": "/Images/zero-touch.webp",
+      "title": "Zero-touch Enrollment",
+      "description": "Onboard endpoints and users with minimal user intervention. Provision devices and set up configurations well before the user gets their hands on."
+    },
+    {
+      "img": "/Images/automation.webp",
+      "title": "Automation",
+      "description": "Automate endpoint compliance with dynamic grouping and breeze through day-to-day IT tasks with scripting capabilities. Hexnode also allows the creation of automated reports."
+    },
+    {
+      "img": "/Images/remote-access.webp",
+      "title": "Remote Access Management",
+      "description": "Hexnode UEM enables the enterprise to manage every single device in the corporate ecosystem for optimal and secure operation."
+    },
+    {
+      "img": "/Images/endpoint-security.webp",
+      "title": "Endpoint Security and Compliance",
+      "description": "Hexnode helps you maintain compliance with international regulatory bodies and set up custom rules for compliance within your business for security purposes."
+    },
+    {
+      "img": "/Images/integrations.webp",
+      "title": "Integrations",
+      "description": "Hexnode's various integrations make it easy to fit into your current endpoint ecosystem. These integrations include Azure AD, Okta, Android Enterprise, Apple School and Business manager, and many more enterprise and technology integrations."
+    },
+    {
+      "img": "/Images/app-management.webp",
+      "title": "App Management",
+      "description": "Set up a bespoke app store, enable mandatory apps, and ensure endpoints come equipped with all the required applications, custom enterprise apps included."
+    }
+  ]
+}

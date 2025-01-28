@@ -1,0 +1,46 @@
+{
+  "title1": "Unified Endpoint Management",
+  "title2": "Gain control and visibility over your endpoints",
+  "description": "Hexnode's UEM solution allows you to simplify endpoint management and free up IT. Focus on the big picture while  Hexnode works on the details.",
+  "btn_text": "LET'S TRY IT OUT!",
+  "contents": [
+    {
+      "id": 1,
+      "image": "/hero-section/idc.webp",
+      "text": "Hexnode is listed as a leader and a major player in IDC MarketScape UEM Vendors Assessment Reports 2024.",
+      "link": "https://www.hexnode.com/blogs/mitsogo-hexnode-named-a-leader-in-idc-marketscape-worldwide-uem-software-for-apple-devices-2024-vendor-assessment/"
+    },
+    {
+      "id": 2,
+      "image": "/hero-section/gartner.webp",
+      "text": "Hexnode was recognized in the 2023 Gartner® Market Guide for Unified Endpoint Management Tools.",
+      "link": "https://www.hexnode.com/blogs/hexnode-listed-as-a-notable-vendor-in-gartner-midmarket-context-magic-quadranttm-for-unified-endpoint-management-tools/"
+    },
+    {
+      "id": 3,
+      "image": "/hero-section/forrester.webp",
+      "text": "Forrester includes Hexnode as a Notable vendor in The Unified Endpoint Management Landscape, Q3 2023.",
+      "link": "https://www.hexnode.com/blogs/hexnode-included-in-the-unified-endpoint-management-landscape-report/"
+    }
+  ],
+  "pills": [
+    {
+      "style": "bg-[#FCD598] top-[14%] left-[5%] sm:left-[13%] md:left-[6%] tab:left-[6%] lg:left-[6%] xl:left-[6%]",
+      "id": 1222,
+      "stroke": "#db962c",
+      "text": "Password policy applied"
+    },
+    {
+      "style": "bg-[#C3E1E7] top-[40%] right-[-2%] sm:right-[-1%] md:right-[-6%] tab:right-[-6%] lg:right-[-6%] xl:right-[-6%]",
+      "id": 134442,
+      "stroke": "#44aec4",
+      "text": "TvOS Kiosk Active"
+    },
+    {
+      "style": "bg-[#BCDCBE] bottom-[13%] right-[26%] z-[1000]",
+      "id": 1455662,
+      "stroke": "#35943b",
+      "text": "Device Enrolled"
+    }
+  ]
+}
